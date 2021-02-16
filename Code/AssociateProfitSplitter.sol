@@ -1,7 +1,6 @@
 pragma solidity ^0.5.0;
 
 contract AssociateProfitSplitter {
-    using SafeMath for uint;
     address payable employee_one;
     address payable employee_two;
     address payable employee_three;
