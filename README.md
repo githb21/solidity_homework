@@ -75,7 +75,7 @@ In this contract, we will be managing an employee's "deferred equity incentive p
 ### Test the contract
 For this contract, test the timelock functionality by adding a new variable called `uint fakenow = now;` as the first line of the contract, then replace every other instance of `now` with `fakenow`.
 
-  * Add this function to "fast forward" time by 100 days when the contract is deployed (requires setting up `fakenow`):
+  * Add this function to "fast forward" time by 400 days when the contract is deployed (requires setting up `fakenow`):
 
     ```solidity
     function fastforward() public {
