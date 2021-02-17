@@ -89,4 +89,4 @@ Before we call the `fastforward` function, I cannot distribute any shares.
 
 After calling `fastforward` function once (fast forwad 400 days), 250 shares are disbuted. You can see the balance of distributed shares have been updated to 250. 
 
-![DeferredEquityPlan_TX](Images/DeferredEquityPlan_TX.PNG)
+![DeferredEquityPlanFastForward_TX](Images/DeferredEquityPlanFastForward_TX.PNG)
