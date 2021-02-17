@@ -46,9 +46,7 @@ The `employee` balances show that logic is executing properly (starting balance 
 
 ## Level Two: The `TieredProfitSplitter` Contract
 
-In this contract, rather than splitting the profits between Associate-level employees, you will calculate rudimentary percentages for different tiers of employees (CEO, CTO, and Bob): CEO is 60%, CTP 25%, and Bob 15%. For any remainder, it will be sent to the CEO. 
-
-Using the starter code, within the `deposit` function, perform the following:
+In this contract, rather than splitting the profits between Associate-level employees, you will calculate rudimentary percentages for different tiers of employees (CEO, CTO, and Bob): CEO is 60%, CTO 25%, and Bob 15%. For any remainder, it will be sent to the CEO. 
 
 ### Test the contract
 
@@ -62,7 +60,7 @@ I tested the `deposit` function by sending 4 ethers.
 
 ![TieredProfitSplitter_contract](Images/TieredProfitSplitter_contract.PNG)
 
-The `employee` balances show that logic is executing properly (starting balance of 100 ETH for each).
+The `employee` balances show that logic is executing properly (starting balance of 100 ETH for each: CEO gets profit sharig of 6 ETH, CTO 2.5 ETH, Bob 1.5 ETH).
 
 ![TieredProfitSplitter_balance](Images/TieredProfitSplitter_balance.PNG)
 
