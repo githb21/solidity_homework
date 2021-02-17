@@ -26,7 +26,7 @@ Navigate to the [Remix IDE](https://remix.ethereum.org) and import the smart con
 
 ## Level One: The `AssociateProfitSplitter` Contract
 
-Profits are divided equally among 3 employees. Since `uint` only contains positive whole numbers, and Solidity does not fully support float/decimals, we must deal with a potential remainder at the end of this function since `amount` will discard the remainder during division, thus we will transfer the remainder back to HR. I also creaed a fallback function using `function() external payable`, and call the `deposit` function from within it. This will ensure that the logic in `deposit` executes if Ether is sent directly to the contract. This is important to prevent Ether from being locked in the contract since we don't have a `withdraw` function in this use-case.
+Profits are divided equally among 3 employees. Since `uint` only contains positive whole numbers, and Solidity does not fully support float/decimals, we must deal with a potential remainder at the end of this function since `amount` will discard the remainder during division, thus we will transfer the remainder back to HR. I also created a fallback function using `function() external payable`, and call the `deposit` function from within it. This will ensure that the logic in `deposit` executes if Ether is sent directly to the contract. This is important to prevent Ether from being locked in the contract since we don't have a `withdraw` function in this use-case.
 
 ### Test the contract
 
