@@ -20,7 +20,7 @@ contract AssociateProfitSplitter {
         employee_one.transfer(amount);
         employee_two.transfer(amount);
         employee_three.transfer(amount);
-        msg.sender.transfer(msg.value - (amount * 3());
+        msg.sender.transfer(msg.value - (amount * 3));
     }
     
     function() external payable {
