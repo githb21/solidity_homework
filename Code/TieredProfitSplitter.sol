@@ -30,7 +30,7 @@ contract TieredProfitSplitter {
         
         amount = points * 15;
         total += amount;
-        employee_one.transfer(amount);
+        employee_three.transfer(amount);
         
         employee_one.transfer(msg.value - total); // ceo gets the remaining wei
     }
