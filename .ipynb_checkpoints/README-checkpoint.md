@@ -18,6 +18,8 @@ For this homework, I've created 3 `ProfitSplitter` smart contracts. These contra
 
 * [`DeferredEquityPlan.sol`](Code/DeferredEquityPlan.sol)
 
+* [`DeferredEquityPlan(fastforward_removed).sol`](Code/DeferredEquityPlan(fastforward_removed).sol)
+
 Navigate to the [Remix IDE](https://remix.ethereum.org) and import the smart contracts. For testing, use [Ganache](https://www.trufflesuite.com/ganache) development chain, and point MetaMask to `localhost:8545`, or replace the port with what you have set in your workspace.
 
 ---
@@ -56,7 +58,7 @@ You will need to fill in the constructor parameters with your designated `employ
 
 ![Remix Testing_TieredProfitSplitter](Images/TieredProfitSplitter_TX.PNG)
 
-I tested the `deposit` function by sending 4 ethers. 
+I tested the `deposit` function by sending 10 ethers. 
 
 ![TieredProfitSplitter_contract](Images/TieredProfitSplitter_contract.PNG)
 
